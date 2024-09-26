@@ -1,6 +1,6 @@
 # HW to Chapters 2 “The Perceptron”
 ## Non-programming Assignment
-**1. Describe the Perceptron and how it works,**
+### 1. Describe the Perceptron and how it works,
 
 The Perceptron is one of the simplest types of artificial neural networks, developed for supervised learning of binary classifiers. It was introduced by Frank Rosenblatt in 1958 and is the foundation for more complex neural networks.
 
@@ -28,7 +28,7 @@ Where:
 - y is the output (either 0 or 1).
 
 
-**2. What is forward and backpropagation propagation for the Perceptron?**
+### 2. What is forward and backpropagation propagation for the Perceptron?
 
 **Forward Propagation:** Forward propagation in the Perceptron involves feeding input data into the network and passing it through the weighted sum and activation function to produce an output. It’s a simple linear combination followed by a threshold function that produces either 0 or 1.
 
@@ -45,7 +45,7 @@ Where:
 
 The Perceptron updates its weights after each misclassified sample until all training samples are correctly classified or the maximum number of iterations is reached.
 
-**3. What is the history of the Perceptron?**
+### 3. What is the history of the Perceptron?
 
 The Perceptron was invented by Frank Rosenblatt in 1958 at the Cornell Aeronautical Laboratory. It was one of the earliest models for supervised learning of binary classifiers. Rosenblatt’s Perceptron gained widespread attention for its ability to learn from data and classify inputs.
 
@@ -53,7 +53,7 @@ However, the original Perceptron model faced a major limitation: it could only c
 
 This criticism significantly slowed research in neural networks until the development of multilayer Perceptrons and the backpropagation algorithm in the 1980s.
 
-**4. What is Supervised Training?**
+### 4. What is Supervised Training?
 
 Supervised Training refers to the process of training a machine learning model using labeled data. In the context of the Perceptron, it means providing the Perceptron with input data along with the corresponding correct output (label). During training:
 
@@ -63,7 +63,7 @@ Supervised Training refers to the process of training a machine learning model u
   
 This process repeats iteratively until the model can accurately predict the labels for the training data or until the stopping criterion is met.
 
-**5. Why is Perceptron referred to as a binary linear classifier?**
+### 5. Why is Perceptron referred to as a binary linear classifier?
 
 The Perceptron is referred to as a binary linear classifier for the following reasons:
 
@@ -71,7 +71,7 @@ The Perceptron is referred to as a binary linear classifier for the following re
 
 **Linear Classifier:** The decision boundary of the Perceptron is a straight line (or hyperplane in higher dimensions). It separates the feature space into two regions, one for each class. A Perceptron can only solve problems where the two classes are linearly separable, meaning they can be divided by a straight line or hyperplane.
 
-**6. What are the disadvantages of binary linear classification?**
+### 6. What are the disadvantages of binary linear classification?
 
 The main disadvantages of binary linear classification include:
 
