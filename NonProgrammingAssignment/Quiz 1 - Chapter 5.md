@@ -40,29 +40,29 @@ A2 = exp(Z2) / sum(exp(Z2))  (for each class)
 **1. Calculate Error:**
 Compute the loss function (e.g., mean squared error) between the predicted output (y_hat) and the true label (y):
 
-Loss = L(y, y_hat)
+- Loss = L(y, y_hat)
 
 **2. Backward Pass (Output Layer):**
 Calculate Output Layer Error: Compute the derivative of the loss function with respect to the output layer pre-activation:
 
-δ_o = (y_hat - y) * f'(z_o)
+- δ_o = (y_hat - y) * f'(z_o)
 
 Calculate Gradients for Output Layer Weights and Biases:
 
-∇W_o = a_h^T * δ_o
+- ∇W_o = a_h^T * δ_o
 
-∇b_o = δ_o
+- ∇b_o = δ_o
 
 **3. Backward Pass (Hidden Layer):**
 Calculate Hidden Layer Error: Compute the error signal for the hidden layer by backpropagating the error from the output layer, weighted by the output layer weights:
 
-δ_h = W_o^T * δ_o * f'(z_h)
+- δ_h = W_o^T * δ_o * f'(z_h)
 
 Calculate Gradients for Hidden Layer Weights and Biases:
 
-∇W_h = x^T * δ_h
+- ∇W_h = x^T * δ_h
 
-∇b_h = δ_h
+- ∇b_h = δ_h
 
 #### Parameter Update:
 
